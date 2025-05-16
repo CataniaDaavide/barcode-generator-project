@@ -30,7 +30,7 @@ export default function BarcodesPage() {
   }
 
   return (
-    <div className="h-screen flex flex-col gap-3 bg-zinc-900 text-white p-3">
+    <div className="min-h-screen flex flex-col gap-3 bg-zinc-900 text-white p-3">
       <div className='flex flex-col gap-4'>
         <h1 className="text-5xl text-amber-500 font-bold">Generatore di Barcode</h1>
         <textarea
