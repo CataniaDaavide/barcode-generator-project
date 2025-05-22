@@ -64,7 +64,7 @@ export default function BarcodesPage() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col gap-3 bg-zinc-900 text-white p-3">
+    <div className="min-h-screen flex flex-col gap-3 bg-zinc-900 text-white p-3 md:p-8">
       <div className="flex flex-col gap-4">
         <h1 className="text-5xl text-amber-500 font-bold">
           Generatore di Barcode
@@ -101,7 +101,7 @@ export default function BarcodesPage() {
         </div>
       </div>
 
-      <div className="w-full flex flex-wrap gap-12 items-center justify-center md:justify-start pt-5">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 xl:grid-cols-6 gap-4 items-center justify-center md:justify-start pt-5">
         {barcodes.map(({ svg, code }, idx) => (
           <div
             key={idx}
