@@ -101,7 +101,7 @@ export default function BarcodesPage() {
         </div>
       </div>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 xl:grid-cols-6 gap-4 items-center justify-center md:justify-start pt-5">
+      <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-20 xl:grid-cols-6 gap-4 items-center justify-center md:justify-start pt-5">
         {barcodes.map(({ svg, code }, idx) => (
           <div
             key={idx}
